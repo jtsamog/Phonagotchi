@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307860821F0EAE0A0063F4E9 /* PetGotchi.m in Sources */ = {isa = PBXBuildFile; fileRef = 307860811F0EAE0A0063F4E9 /* PetGotchi.m */; };
 		602CAE411984363700C9FE49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE401984363700C9FE49 /* Foundation.framework */; };
 		602CAE431984363700C9FE49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE421984363700C9FE49 /* CoreGraphics.framework */; };
 		602CAE451984363700C9FE49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE441984363700C9FE49 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307860801F0EAE0A0063F4E9 /* PetGotchi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetGotchi.h; sourceTree = "<group>"; };
+		307860811F0EAE0A0063F4E9 /* PetGotchi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetGotchi.m; sourceTree = "<group>"; };
 		602CAE3D1984363700C9FE49 /* Phonagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602CAE401984363700C9FE49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		602CAE421984363700C9FE49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,16 +127,16 @@
 		602CAE461984363700C9FE49 /* Phonagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				602CAE521984363800C9FE49 /* Main.storyboard */,
+				602CAE551984363800C9FE49 /* LPGViewController.h */,
+				602CAE561984363800C9FE49 /* LPGViewController.m */,
+				307860801F0EAE0A0063F4E9 /* PetGotchi.h */,
+				307860811F0EAE0A0063F4E9 /* PetGotchi.m */,
 				AFEF852819F082EB00C5C416 /* bucket.png */,
 				AFEF852919F082EB00C5C416 /* apple.png */,
 				607C5D311985A13300501387 /* default.png */,
 				607C5D321985A13300501387 /* sleeping.png */,
 				607C5D331985A13300501387 /* grumpy.png */,
-				602CAE4F1984363800C9FE49 /* LPGAppDelegate.h */,
-				602CAE501984363800C9FE49 /* LPGAppDelegate.m */,
-				602CAE521984363800C9FE49 /* Main.storyboard */,
-				602CAE551984363800C9FE49 /* LPGViewController.h */,
-				602CAE561984363800C9FE49 /* LPGViewController.m */,
 				602CAE581984363900C9FE49 /* Images.xcassets */,
 				602CAE471984363700C9FE49 /* Supporting Files */,
 			);
@@ -143,6 +146,8 @@
 		602CAE471984363700C9FE49 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				602CAE4F1984363800C9FE49 /* LPGAppDelegate.h */,
+				602CAE501984363800C9FE49 /* LPGAppDelegate.m */,
 				AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */,
 				602CAE481984363700C9FE49 /* Phonagotchi-Info.plist */,
 				602CAE491984363700C9FE49 /* InfoPlist.strings */,
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602CAE571984363800C9FE49 /* LPGViewController.m in Sources */,
+				307860821F0EAE0A0063F4E9 /* PetGotchi.m in Sources */,
 				602CAE511984363800C9FE49 /* LPGAppDelegate.m in Sources */,
 				602CAE4D1984363700C9FE49 /* main.m in Sources */,
 			);
