@@ -16,5 +16,6 @@
 
 -(void)rateOfPetting:(CGPoint) velocity;
 -(void)feedPet:(CGPoint)location;
+-(void)feedPetLocation:(CGPoint)location;
 -(int)petSleep:(int)restfulness;
 @end
